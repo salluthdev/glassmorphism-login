@@ -64,7 +64,7 @@ section
 	left: 0;
 	bottom: -10px;
 	width: 80px;
-	height: 4px;
+	height: 2.8px;
 	background: #fff;
 }
 .form .inputBox
@@ -94,15 +94,22 @@ section
 }
 .form .inputBox input[type="submit"]
 {
-	background: #fff;
-	color: #666;
+	background: #4a2050;
+	color: #fff;
 	max-width: 100px;
 	cursor: pointer;
 	font-weight: 600;
 	margin-bottom: 20px;
+	border: none;
 }
 .forget
 {
 	margin-top: 5px;
 	color: #fff;
+}
+.forget a
+{
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
 }
