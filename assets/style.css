@@ -115,7 +115,31 @@ section
 }
 .forget a
 {
+	display: inline-block;
 	color: #fff;
-	font-weight: 600;
-	text-decoration: none;
+	font-weight: 500;
+}
+
+@media (max-width: 420px)
+{
+	.boxContainer
+	{
+		width: 360px;
+	}
+	.form
+	{
+		padding: 36px;
+	}
+}
+
+@media (max-width: 390px)
+{
+	.boxContainer
+	{
+		width: 320px;
+	}
+	.form
+	{
+		padding: 32px;
+	}
 }
